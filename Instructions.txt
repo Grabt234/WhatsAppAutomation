@@ -1,0 +1,54 @@
+# Instructions
+
+## WhatsApp Web
+
+1. Open ones browser
+2. Search for and open the WhatsApp web website
+3. If one is already logged in, One may proceed to the next heading
+3. A QR code should appear - if not phone Grant
+4. Open WhatsApp on ones phone
+5. Click the three dots in the top right hand corner
+6. Select link device and point ones camera at the QR code
+7. One should be logged in
+
+## Contact List Format
+
+1. The file MUST be named contacts.csv and be located in the same folder as WhatsAppAutomatio
+2. The phone numbers MUST start with international dialling codes
+3. There must be NO empty lines in the file
+4. The file should look as follows:
+
++27XXXXXXXXX
++27YYYYYYYYY
+
+5. No commas are needed
+6. There must be no other text in the file other than the numbers
+
+## Picture Format
+
+1. The picture MUST be a JPEG
+2. The picture MUST be named picture.jpeg
+3. The picture must be in the same folder as WhatsAppAutomation
+
+## Message Format
+
+1. The message MUST NOT contain emojis
+2. The message MUST be in the .txt file (Text Document) and be in the same file as WhatsAppAutomation
+3. To create a .txt file on windows right click and select new
+4. Look for a text file and toggle the option
+5. Types message and save the file as message.txt
+
+## Things that will break everything
+
+1. Not being logged into WhatsApp web
+2. Not being connected to the internet
+3. If files are named incorrectly
+4. If the CSV File is not correctly formatted
+
+## To Run
+
+1. Double click WhatsAppAutomation
+2. You should see a black screen open
+3. WhatsApp in browser should open and one should see messages being sent
+4. DO NO INTERACT With the device while running as this could break the sending
+5. A list of send messages should be in a file called PyWhatKit_DB
